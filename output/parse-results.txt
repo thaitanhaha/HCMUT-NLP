@@ -1,0 +1,140 @@
+----------------------------------------------------------------------
+The sentence: bận
+
+Parsed rule:
+Cau               
+Cau_              
+ViNgu             
+CumTinhTu         
+TinhTu            
+TinhTu_Nguoi      
+bận               
+----------------------------------------------------------------------
+The sentence: xe rẻ quá
+
+Parsed rule:
+Cau               ____              ____              
+Cau_              ____              ____              
+ChuNgu            ViNgu             ____              
+CumDanhTu         ViNgu             ____              
+CumDanhTu         CumTinhTu         ____              
+CumDanhTu_        CumTinhTu         ____              
+DanhTu            CumTinhTu         ____              
+DanhTu            TinhTu            PhoTuSau_TinhTu   
+DanhTu            TinhTu_Vat        PhoTuSau_TinhTu   
+DanhTu            TinhTu_Vat        quá               
+xe                TinhTu_Vat        quá               
+xe                rẻ                quá               
+----------------------------------------------------------------------
+The sentence: tôi thích tour đẹp
+
+Parsed rule:
+Cau               ____              ____              ____              
+Cau_              ____              ____              ____              
+ChuNgu            ViNgu             ____              ____              
+CumDanhTu         ViNgu             ____              ____              
+CumDanhTu         CumDongTu         ____              ____              
+CumDanhTu_        CumDongTu         ____              ____              
+DaiTu             CumDongTu         ____              ____              
+DaiTu             CumDongTu_        ____              ____              
+DaiTu             DongTu            DanhTu            TinhTu            
+DaiTu             DongTu_Nguoi      DanhTu            TinhTu            
+DaiTu             DongTu_Nguoi      DanhTu            TinhTu_Nguoi      
+tôi               DongTu_Nguoi      DanhTu            TinhTu_Nguoi      
+tôi               DongTu_Nguoi      tour              TinhTu_Nguoi      
+tôi               DongTu_Nguoi      tour              đẹp               
+tôi               thích             tour              đẹp               
+----------------------------------------------------------------------
+The sentence: tôi thích những phương tiện này
+
+Parsed rule:
+Cau               ____              ____              ____              ____              ____              
+Cau_              ____              ____              ____              ____              ____              
+ChuNgu            ViNgu             ____              ____              ____              ____              
+CumDanhTu         ViNgu             ____              ____              ____              ____              
+CumDanhTu         CumDongTu         ____              ____              ____              ____              
+CumDanhTu_        CumDongTu         ____              ____              ____              ____              
+DaiTu             CumDongTu         ____              ____              ____              ____              
+DaiTu             CumDongTu_        ____              ____              ____              ____              
+DaiTu             DongTu            CumDanhTu         ____              ____              ____              
+DaiTu             DongTu            CumDanhTu_        ____              ____              TroTuSau          
+DaiTu             DongTu            TroTuTr           DanhTu            ____              TroTuSau          
+DaiTu             DongTu_Nguoi      TroTuTr           DanhTu            ____              TroTuSau          
+tôi               DongTu_Nguoi      TroTuTr           DanhTu            ____              TroTuSau          
+tôi               DongTu_Nguoi      những             DanhTu            ____              TroTuSau          
+tôi               DongTu_Nguoi      những             DanhTu            ____              này               
+tôi               DongTu_Nguoi      những             phương            tiện              này               
+tôi               thích             những             phương            tiện              này               
+----------------------------------------------------------------------
+The sentence: bốn phương tiện trong bận
+
+Không thể phân tích câu.
+----------------------------------------------------------------------
+The sentence: hôm nay tôi bận quá
+
+Parsed rule:
+Cau               ____              ____              ____              ____              
+Cau_              ____              ____              ____              ____              
+TrangNgu          ____              ChuNgu            ViNgu             ____              
+TrangNgu          ____              CumDanhTu         ViNgu             ____              
+TrangNgu          ____              CumDanhTu         CumTinhTu         ____              
+TrangNgu          ____              CumDanhTu_        CumTinhTu         ____              
+TrangNgu          ____              DaiTu             CumTinhTu         ____              
+TrangNgu          ____              DaiTu             TinhTu            PhoTuSau_TinhTu   
+TrangNgu          ____              DaiTu             TinhTu_Nguoi      PhoTuSau_TinhTu   
+TrNgu_ThoiGian    ____              DaiTu             TinhTu_Nguoi      PhoTuSau_TinhTu   
+TrNgu_ThoiGian    ____              tôi               TinhTu_Nguoi      PhoTuSau_TinhTu   
+TrNgu_ThoiGian    ____              tôi               TinhTu_Nguoi      quá               
+TrNgu_ThoiGian    ____              tôi               bận               quá               
+hôm               nay               tôi               bận               quá               
+----------------------------------------------------------------------
+The sentence: tôi không rảnh
+
+Parsed rule:
+Cau               ____              ____              
+Cau_              ____              ____              
+ChuNgu            ViNgu             ____              
+CumDanhTu         ViNgu             ____              
+CumDanhTu         CumTinhTu         ____              
+CumDanhTu_        CumTinhTu         ____              
+DaiTu             CumTinhTu         ____              
+DaiTu             PhoTuTr_TinhTu    TinhTu            
+DaiTu             PhoTuTr_TinhTu    TinhTu_Nguoi      
+tôi               PhoTuTr_TinhTu    TinhTu_Nguoi      
+tôi               không             TinhTu_Nguoi      
+tôi               không             rảnh              
+----------------------------------------------------------------------
+The sentence: khách sạn này rẻ không
+
+Parsed rule:
+Cau               ____              ____              ____              ____              
+Cau_              ____              ____              ____              Hoi               
+ChuNgu            ____              ____              ViNgu             Hoi               
+CumDanhTu         ____              ____              ViNgu             Hoi               
+CumDanhTu         ____              ____              CumTinhTu         Hoi               
+CumDanhTu_        ____              TroTuSau          CumTinhTu         Hoi               
+DanhTu            ____              TroTuSau          CumTinhTu         Hoi               
+DanhTu            ____              TroTuSau          TinhTu            Hoi               
+DanhTu            ____              TroTuSau          TinhTu_Vat        Hoi               
+DanhTu            ____              TroTuSau          TinhTu_Vat        không             
+DanhTu            ____              này               TinhTu_Vat        không             
+khách             sạn               này               TinhTu_Vat        không             
+khách             sạn               này               rẻ                không             
+----------------------------------------------------------------------
+The sentence: anh ấy không thích thì sao
+Parsed rule:
+Cau               ____              ____              ____              ____              ____              
+Cau_              ____              ____              ____              Hoi               ____              
+ChuNgu            ____              ViNgu             ____              Hoi               ____              
+CumDanhTu         ____              ViNgu             ____              Hoi               ____              
+CumDanhTu         ____              CumDongTu         ____              Hoi               ____              
+CumDanhTu_        TroTuSau          CumDongTu         ____              Hoi               ____              
+DaiTu             TroTuSau          CumDongTu         ____              Hoi               ____              
+DaiTu             TroTuSau          CumDongTu_        ____              Hoi               ____              
+DaiTu             TroTuSau          PhoTuTr_DongTu    DongTu            Hoi               ____              
+DaiTu             TroTuSau          PhoTuTr_DongTu    DongTu_Nguoi      Hoi               ____              
+DaiTu             TroTuSau          PhoTuTr_DongTu    DongTu_Nguoi      thì               sao               
+anh               TroTuSau          PhoTuTr_DongTu    DongTu_Nguoi      thì               sao               
+anh               ấy                PhoTuTr_DongTu    DongTu_Nguoi      thì               sao               
+anh               ấy                không             DongTu_Nguoi      thì               sao               
+anh               ấy                không             thích             thì               sao               

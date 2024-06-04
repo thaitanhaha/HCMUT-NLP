@@ -1,0 +1,13 @@
+Cau -> Cau_ Hoi | Cau_
+Cau_ -> ViNgu | ChuNgu ViNgu | TrangNgu ChuNgu ViNgu
+ChuNgu -> CumDanhTu
+ViNgu -> CumDongTu | CumTinhTu
+CumDanhTu -> CumDanhTu_ TroTuSau | CumDanhTu_
+CumDanhTu_ -> LuongTu DanhTu | TroTuTr DanhTu | SoTu DanhTu | DanhTuRieng | DaiTu | DanhTu | DanhTu CumGioiTu
+CumDongTu -> CumDongTu_ | CumDongTu_ PhoTuSau_DongTu
+CumDongTu_ -> DongTu DanhTu TinhTu | DongTu CumTinhTu | DongTu | DongTu CumDanhTu | PhoTuTr_DongTu DongTu
+CumTinhTu -> TinhTu | TinhTu PhoTuSau_TinhTu | PhoTuTr_TinhTu TinhTu
+CumGioiTu -> GioiTu | GioiTu DanhTu
+DongTu -> DongTu_Vat | DongTu_Nguoi
+TinhTu -> TinhTu_Nguoi | TinhTu_Vat
+TrangNgu -> TrNgu_ThoiGian

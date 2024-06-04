@@ -1,0 +1,30 @@
+Đầu tiên ta định nghĩa RIGHT_ARC và LEFT_ARC như sau:
+
+RIGHT_ARC: 
+Có dạng A R B, nghĩa là, từ bên trái là A, từ bên phải là B, mối quan hệ RIGHT_ARC của chúng là R
+NOUN              noun_query        QUERY             
+NOUN              nmod              NAME              
+VERB              punc              PUNC              
+VERB              nmod              NAME              
+VERB              pp                PREPOSITION       
+VERB              yesno             YESNO             
+VERB              dobj              NOUN              
+VERB              adv               ADVERB            
+VERB              vmod              VERB              
+VERB              query             QUERY             
+PREPOSITION       pobj              NOUN              
+PREPOSITION       pobj              NAME              
+PREPOSITION       pmod              PREPOSITION       
+ROOT              root              VERB              
+
+
+LEFT_ARC: 
+Có dạng A R B, nghĩa là, từ bên trái là A, từ bên phải là B, mối quan hệ LEFT_ARC của chúng là R
+NOUN              subj              VERB              
+NOUN              nmod              NAME              
+QUERY             noun_query        NOUN              
+ADVERB            adv               VERB              
+PRONOUN           det               NOUN              
+DETERMINER        det               NOUN              
+
+Sau khi đã định nghĩa, sử dụng giải thuật MaltParser như đã học để phân tích câu.
